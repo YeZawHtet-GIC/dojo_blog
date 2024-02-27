@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 import React from 'react'
 
 function Home() {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
+  const { error, isPending, data: blogs } = useFetch('https://dojo-blog-neon.vercel.app/')
 
   return (
     <div className="col-md-6 offset-3">

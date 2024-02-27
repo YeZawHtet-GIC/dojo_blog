@@ -8,10 +8,10 @@ export default function BlogDetails() {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/blogs/" + id);
+  } = useFetch("https://dojo-blog-neon.vercel.app/" + id);
  const navigate = useNavigate();
   const handleClick = () => {
-    fetch("http://localhost:8000/blogs/" + blog.id, {
+    fetch("https://dojo-blog-neon.vercel.app/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
