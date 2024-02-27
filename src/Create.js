@@ -13,7 +13,7 @@ function Create() {
     e.preventDefault();
     const blog = { title, body, author };
 
-    fetch('https://dojo-blog-neon.vercel.app/', {
+    fetch('https://json-server-three-bay.vercel.app/blogs', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
