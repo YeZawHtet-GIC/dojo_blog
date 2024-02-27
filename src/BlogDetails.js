@@ -19,7 +19,7 @@ export default function BlogDetails() {
   };
 
   return (
-    <div className="col-md-6 offset-3 text-center bg-dark p-5 rounded text-warning">
+    <div className="col-md-6 offset-md-3 text-center bg-dark p-5 rounded text-warning">
       {isPending && <div>Loading...</div>}
       {error && <div>{error}</div>}
       {blog && (

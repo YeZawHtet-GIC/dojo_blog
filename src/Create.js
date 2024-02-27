@@ -26,7 +26,7 @@ function Create() {
   }
 
   return (
-    <div className="col-md-6 offset-3 bg-dark p-5 text-warning rounded">
+    <div className="col-md-6 offset-md-3 bg-dark p-5 text-warning rounded">
       <h2>Add a New Blog</h2>
       <form onSubmit={handleSubmit}>
         <label>Blog title:</label>
