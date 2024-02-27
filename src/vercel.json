@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "api/api.js": {
+        "runtime": "nodejs14.x"
+      }
+    }
+  }
+  

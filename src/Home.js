@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="col-md-6 offset-3">
       { error && <div>{ error }</div> }
-      { isPending && <div>Loading...</div> }
+      { isPending && <div className="text-warning text-center fs-1">Loading...</div> }
       {blogs && <BlogList blogs={blogs} />}
     </div>
   );
